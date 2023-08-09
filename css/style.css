@@ -1,0 +1,198 @@
+/*Importando a fonte utilizada*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/*Reset padrão do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Classes Auxiliares*/
+.center{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+/*Header*/
+header.header{
+    width: 100%;
+    padding: 17px 2%;
+    background-color: #212343;
+}
+
+/*Banner*/
+section.container-banner{
+    background-image: url(../images/header_bg.png);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+section.container-banner .center{
+    height: 100%;
+}
+
+section .container-banner-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Lista Banner*/
+section .container-list{
+    width: 519px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+    padding: 30px;
+    margin-top: 100px;
+}
+
+section .container-list ul{
+    list-style-position: inside;
+}
+
+section .container-list ul li{
+    color: #fff;
+    margin-top: 18px;
+}
+
+/*Formulário Banner*/
+section .form{
+    width: 400px;
+    height: calc(100%+30px);
+    background-color: #fff;
+    position: relative;
+    top: -15px;
+    border: 8px solid rgba(204,204,204,0.75);
+    padding: 20px;
+    background-clip: padding-box;
+}
+
+section .form h2{
+    font-size: 21px;
+    color: #999;
+    font-weight: normal;
+}
+
+section .form form .input-container{
+    margin-top: 20px;
+}
+
+section .form form .input-container span{
+    display: inline-block;
+    width: 100%;
+    color: #bbb;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+section .form form .input-container input[type=text],
+section .form form .input-container input[type=email]{
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    padding: 8px 10px 8px 10px;
+}
+
+section .form form p.aviso{
+    display: inline-block;
+    width: 100%;
+    color: #bbb;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+section .form form .input-submit-container{
+    text-align: center;
+}
+
+section .form form .input-submit-container input[type=submit]{
+    width: 280px;
+    height: 55px;
+    background-color: #363a6d;
+    color: #fff;
+    font-size: 25px;
+    border-bottom: 3px solid #4a5097;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+}
+
+/*Container Seção 1*/
+section.container-section{
+    background-color: #ddd;
+    padding: 40px 2%;
+    text-align: center;
+}
+
+section.container-section h2{
+    font-weight: normal;
+}
+
+section.container-section p{
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 768px;
+}
+
+section .seta{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+}
+
+/*Container Seção 2*/
+section.container-section-2{
+    padding: 90px 2%;
+}
+
+section.container-section-2 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+section .section{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+}
+
+section .section-single{
+    width: 33.333%;
+    padding: 30px;
+}
+
+section .section-single img{
+    width: 70px;
+}
+
+section .texto-container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/*Rodapé*/
+footer{
+    padding: 20px 2%;
+    border-top: 2px solid #888;
+    text-align: center;
+    color: #888;
+}
+
+footer p{
+    margin-top: 8px;
+}
